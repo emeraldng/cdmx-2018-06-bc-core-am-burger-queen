@@ -16,6 +16,7 @@ import { UserService } from './shared/user.service';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MenuDisplayComponent } from './menu-display/menu-display.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { MenuDisplayComponent } from './menu-display/menu-display.component';
     AngularFireAuthModule,
     FormsModule,
     ReactiveFormsModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [AuthService, UserService, UserResolver, AuthGuard],
   bootstrap: [AppComponent]
