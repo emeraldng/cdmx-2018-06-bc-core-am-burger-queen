@@ -3,14 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false, 
-  firebase :{
-    apiKey: "AIzaSyAw3X9i7EnmHc1iw7ZCsRZWaIvfYyRkQv0",
-    authDomain: "burger-queen-ng.firebaseapp.com",
-    databaseURL: "https://burger-queen-ng.firebaseio.com",
-    projectId: "burger-queen-ng",
-    storageBucket: "burger-queen-ng.appspot.com",
-    messagingSenderId: "143465089012"
+  production: false,
+  firebase : {
+    apiKey: 'AIzaSyBrij2FeM27ERSljzQgjcdXdyeHWZjKoUw',
+    authDomain: 'ng-burger-shop.firebaseapp.com',
+    databaseURL: 'https://ng-burger-shop.firebaseio.com',
+    projectId: 'ng-burger-shop',
+    storageBucket: 'ng-burger-shop.appspot.com',
+    messagingSenderId: '333632669745'
   }
 };
 
